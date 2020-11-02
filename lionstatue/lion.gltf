@@ -1,0 +1,295 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5123,
+         "count" : 379554,
+         "max" : [ 65533 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-0-mesh-0-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 65534,
+         "max" : [ 12.64532089233398, 7.494803428649902, 38.70643997192383 ],
+         "min" : [ -12.65356731414795, -9.225348472595215, 0 ],
+         "name" : "buffer-0-group-0-mesh-0-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 786408,
+         "componentType" : 5126,
+         "count" : 65534,
+         "max" : [ 0.999748170375824, 0.9999927282333374, 0.9999997615814209 ],
+         "min" : [ -0.999955952167511, -0.9999954104423523, -0.9998359084129333 ],
+         "name" : "buffer-0-group-0-mesh-0-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 65534,
+         "max" : [ 0.9960780143737793, 0.9960780143737793, 0.9960780143737793, 1 ],
+         "min" : [ 0, 0, 0, 0 ],
+         "name" : "buffer-0-group-0-mesh-0-color",
+         "type" : "VEC4"
+      },
+      {
+         "bufferView" : 0,
+         "byteOffset" : 759108,
+         "componentType" : 5123,
+         "count" : 365640,
+         "max" : [ 63372 ],
+         "min" : [ 0 ],
+         "name" : "buffer-0-group-0-mesh-1-indices",
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 1572816,
+         "componentType" : 5126,
+         "count" : 63373,
+         "max" : [ 12.62849712371826, 7.52209997177124, 38.6837272644043 ],
+         "min" : [ -12.63769054412842, -9.226181983947754, 0 ],
+         "name" : "buffer-0-group-0-mesh-1-position",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 2333292,
+         "componentType" : 5126,
+         "count" : 63373,
+         "max" : [ 0.9999300837516785, 0.9999964237213135, 0.9999997615814209 ],
+         "min" : [ -0.9999964833259583, -0.9999874234199524, -1.00000011920929 ],
+         "name" : "buffer-0-group-0-mesh-1-normal",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "byteOffset" : 1048544,
+         "componentType" : 5126,
+         "count" : 63373,
+         "max" : [ 0.9960780143737793, 0.9960780143737793, 0.9960780143737793, 1 ],
+         "min" : [ 0, 0, 0, 0 ],
+         "name" : "buffer-0-group-0-mesh-1-color",
+         "type" : "VEC4"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 294144208
+      },
+      "generator" : "Obj2GltfConverter",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 1490388,
+         "byteOffset" : 0,
+         "byteStride" : 0,
+         "name" : "buffer-0-bufferview-ushort",
+         "target" : 34963
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1,
+         "byteOffset" : 0,
+         "name" : "buffer-0-bufferview-vec2"
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 3093768,
+         "byteOffset" : 1490388,
+         "byteStride" : 12,
+         "name" : "buffer-0-bufferview-vec3",
+         "target" : 34962
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 2062512,
+         "byteOffset" : 4584160,
+         "byteStride" : 16,
+         "name" : "buffer-0-bufferview-vec4",
+         "target" : 34962
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 6646672,
+         "name" : "buffer-0",
+         "uri" : "lion.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "materials" : [
+      {
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : true,
+         "name" : "lion_Material",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 1, 1, 1, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 1
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "buffer-0-mesh-0",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "COLOR_0" : 3,
+                  "NORMAL" : 2,
+                  "POSITION" : 1
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            },
+            {
+               "attributes" : {
+                  "COLOR_0" : 7,
+                  "NORMAL" : 6,
+                  "POSITION" : 5
+               },
+               "indices" : 4,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "node-0"
+      },
+      {
+         "children" : [ 2 ]
+      },
+      {
+         "children" : [ 3 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "rotation" : [ 0.7071067811865477, 0, 0, -0.7071067811865474 ],
+         "translation" : [ -0.09896833303684074, -0.7216784028605581, 29.487601873446 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ 0.09896833303684074, 0.7216784028605581, -29.487601873446 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 5 ],
+         "rotation" : [
+            -0.09749632865183837,
+            -0.4572142591332482,
+            -0.05050886516567361,
+            0.882552231703214
+         ],
+         "translation" : [ -24.58958480807151, 5.983883221207185, 46.77930928791318 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -16.49652565504245, 8.248262827521227, 8.248262827521227 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 16.66149091159288 ],
+         "translation" : [ -17.89930020491175, 32.77269845988054, 12.44206366555735 ]
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.3294117647058823, 0.4313725490196079, 0.4784313725490196 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "pivot" : [ 0, 0, 0 ]
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 4
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ -1.237809293318869, -0.550283363305216, 29.10355457715022 ],
+                  "radius" : 16.49652565504245,
+                  "stdev" : 8.885126704645403
+               },
+               "visualCenterPoint" : [ -0.09896833303684074, -0.7216784028605581, 29.487601873446 ]
+            },
+            "GOOGLE_hemi_light" : {
+               "groundColor" : [ 0.3294117647058823, 0.4313725490196079, 0.4784313725490196 ]
+            }
+         },
+         "name" : "scene-0",
+         "nodes" : [ 1, 4, 6 ]
+      }
+   ]
+}
