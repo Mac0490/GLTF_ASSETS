@@ -1,2 +1,0 @@
-# GLTF_ASSETS
-bacalarassetsForAR
