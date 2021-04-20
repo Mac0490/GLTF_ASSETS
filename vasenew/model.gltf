@@ -1,0 +1,150 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "byteOffset" : 0,
+         "componentType" : 5125,
+         "count" : 128250,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 128250,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 128250,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "byteOffset" : 0,
+         "componentType" : 5126,
+         "count" : 128250,
+         "type" : "VEC2"
+      }
+   ],
+   "asset" : {
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 513000,
+         "byteOffset" : 0
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1539000,
+         "byteOffset" : 513000
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1539000,
+         "byteOffset" : 2052000
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1026000,
+         "byteOffset" : 3591000
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 4617000,
+         "uri" : "model.bin"
+      }
+   ],
+   "materials" : [
+      {
+         "name" : "Material_2",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.9803921568627451, 0.9803921568627451, 0.9803921568627451, 1 ]
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1,
+                  "TEXCOORD_0" : 3
+               },
+               "indices" : 0,
+               "material" : 0,
+               "mode" : 4
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "children" : [ 1, 4, 5, 6, 7 ],
+         "name" : "RootNode",
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "children" : [ 2 ],
+         "name" : "Layer 06",
+         "rotation" : [ -0.7071067811865475, 0, 0, 0.7071067811865476 ],
+         "scale" : [ 0.001, 0.001, 0.001 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "children" : [ 3 ],
+         "name" : "Object_1",
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "mesh" : 0,
+         "rotation" : [ 0, 0, 0, 1 ],
+         "scale" : [ 1, 1, 1 ],
+         "translation" : [ 0, 0, 0 ]
+      },
+      {
+         "name" : "Perspective",
+         "rotation" : [
+            -0.3764927947875565,
+            0.8300291647714912,
+            0.1660058329542982,
+            0.3764927947875565
+         ],
+         "scale" : [ 0.001, 0.001, 0.0009999999999999998 ],
+         "translation" : [ 0.1789941694145348, 0.2566280393942137, 0.310026995547624 ]
+      },
+      {
+         "name" : "Top",
+         "rotation" : [ -0.5, 0.5, -0.5, 0.5 ],
+         "scale" : [ 0.001, 0.001, 0.001 ],
+         "translation" : [ 0, 0.1047139045228235, 0 ]
+      },
+      {
+         "name" : "Front",
+         "rotation" : [ -0.5, 0.5, 0.5, 0.5 ],
+         "scale" : [ 0.001, 0.001, 0.001 ],
+         "translation" : [ 0, 0, 0.1047139045228235 ]
+      },
+      {
+         "name" : "Right",
+         "rotation" : [ 0.7071067811865475, 0, 0, 0.7071067811865476 ],
+         "scale" : [ 0.001, 0.001, 0.001 ],
+         "translation" : [ 0.1047139045228235, 0, 0 ]
+      }
+   ],
+   "scenes" : [
+      {
+         "nodes" : [ 0 ]
+      }
+   ]
+}
